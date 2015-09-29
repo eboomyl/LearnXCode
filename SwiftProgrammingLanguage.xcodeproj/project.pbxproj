@@ -14,6 +14,7 @@
 		FF6B2B0A1B8963A10077E4EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2B091B8963A10077E4EE /* Images.xcassets */; };
 		FF6B2B0D1B8963A10077E4EE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2B0B1B8963A10077E4EE /* LaunchScreen.xib */; };
 		FF6B2B191B8963A10077E4EE /* SwiftProgrammingLanguageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6B2B181B8963A10077E4EE /* SwiftProgrammingLanguageTests.swift */; };
+		FF6B2B231B89640C0077E4EE /* SwiftProgrammingLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6B2B221B89640C0077E4EE /* SwiftProgrammingLanguage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		FF6B2B121B8963A10077E4EE /* SwiftProgrammingLanguageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftProgrammingLanguageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF6B2B171B8963A10077E4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF6B2B181B8963A10077E4EE /* SwiftProgrammingLanguageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftProgrammingLanguageTests.swift; sourceTree = "<group>"; };
+		FF6B2B221B89640C0077E4EE /* SwiftProgrammingLanguage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftProgrammingLanguage.swift; sourceTree = "<group>"; };
+		FF961DFB1BBAF8F90088A653 /* LearnXCode.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LearnXCode.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,11 +83,9 @@
 			isa = PBXGroup;
 			children = (
 				FF6B2AFF1B8963A10077E4EE /* AppDelegate.swift */,
+				FF6B2B221B89640C0077E4EE /* SwiftProgrammingLanguage.swift */,
+				FF961DFB1BBAF8F90088A653 /* LearnXCode.playground */,
 				FF6B2B041B8963A10077E4EE /* ViewController.swift */,
-				FF6B2B061B8963A10077E4EE /* Main.storyboard */,
-				FF6B2B091B8963A10077E4EE /* Images.xcassets */,
-				FF6B2B0B1B8963A10077E4EE /* LaunchScreen.xib */,
-				FF6B2B011B8963A10077E4EE /* SwiftProgrammingLanguage.xcdatamodeld */,
 				FF6B2AFD1B8963A10077E4EE /* Supporting Files */,
 			);
 			path = SwiftProgrammingLanguage;
@@ -93,6 +94,10 @@
 		FF6B2AFD1B8963A10077E4EE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FF6B2B0B1B8963A10077E4EE /* LaunchScreen.xib */,
+				FF6B2B061B8963A10077E4EE /* Main.storyboard */,
+				FF6B2B011B8963A10077E4EE /* SwiftProgrammingLanguage.xcdatamodeld */,
+				FF6B2B091B8963A10077E4EE /* Images.xcassets */,
 				FF6B2AFE1B8963A10077E4EE /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -159,7 +164,9 @@
 		FF6B2AF21B8963A10077E4EE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = yuanlin;
 				TargetAttributes = {
 					FF6B2AF91B8963A10077E4EE = {
@@ -216,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF6B2B051B8963A10077E4EE /* ViewController.swift in Sources */,
+				FF6B2B231B89640C0077E4EE /* SwiftProgrammingLanguage.swift in Sources */,
 				FF6B2B001B8963A10077E4EE /* AppDelegate.swift in Sources */,
 				FF6B2B031B8963A10077E4EE /* SwiftProgrammingLanguage.xcdatamodeld in Sources */,
 			);
@@ -280,6 +288,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -348,6 +357,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftProgrammingLanguage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ayovel.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -358,6 +368,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftProgrammingLanguage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ayovel.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -376,6 +387,7 @@
 				);
 				INFOPLIST_FILE = SwiftProgrammingLanguageTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ayovel.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftProgrammingLanguage.app/SwiftProgrammingLanguage";
 			};
@@ -391,6 +403,7 @@
 				);
 				INFOPLIST_FILE = SwiftProgrammingLanguageTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ayovel.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftProgrammingLanguage.app/SwiftProgrammingLanguage";
 			};
@@ -415,6 +428,7 @@
 				FF6B2B1E1B8963A10077E4EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF6B2B1F1B8963A10077E4EE /* Build configuration list for PBXNativeTarget "SwiftProgrammingLanguageTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +437,7 @@
 				FF6B2B211B8963A10077E4EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
