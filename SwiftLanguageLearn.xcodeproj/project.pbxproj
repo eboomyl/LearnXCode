@@ -34,7 +34,13 @@
 		FF6B2B0C1B8963A10077E4EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FF6B2B121B8963A10077E4EE /* SwiftProgrammingLanguageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftProgrammingLanguageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF6B2B171B8963A10077E4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF72F4DE1BC80F430045F302 /* Xcode析构过程.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Xcode析构过程.playground"; sourceTree = "<group>"; };
+		FF72F4DF1BC8104A0045F302 /* Xcode自动引用计数.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Xcode自动引用计数.playground"; sourceTree = "<group>"; };
+		FF8A46A31BC5431B00C9D9DF /* Xcode下标脚本.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Xcode下标脚本.playground"; sourceTree = "<group>"; };
+		FF8A46A41BC5609400C9D9DF /* Xcode继承.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Xcode继承.playground"; sourceTree = "<group>"; };
+		FF8A46A51BC5744800C9D9DF /* Xcode构造过程.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Xcode构造过程.playground"; sourceTree = "<group>"; };
 		FF8E79581BC3C476003A2B66 /* Xcode属性.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Xcode属性.playground"; sourceTree = "<group>"; };
+		FF8E79591BC4128C003A2B66 /* Xcode方法.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Xcode方法.playground"; sourceTree = "<group>"; };
 		FF9048E71BBFD6480036AAC2 /* Xcode集合类型.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Xcode集合类型.playground"; sourceTree = "<group>"; };
 		FF9048E81BBFFD280036AAC2 /* Xcode控制流.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "Xcode控制流.playground"; path = "../Xcode控制流.playground"; sourceTree = "<group>"; };
 		FF9048E91BC02F3F0036AAC2 /* Xcode函数.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Xcode函数.playground"; sourceTree = "<group>"; };
@@ -96,6 +102,12 @@
 				FF14D51F1BC125D400E1519B /* Xcode枚举.playground */,
 				FF14D5201BC1791D00E1519B /* Xcode类和结构体.playground */,
 				FF8E79581BC3C476003A2B66 /* Xcode属性.playground */,
+				FF8E79591BC4128C003A2B66 /* Xcode方法.playground */,
+				FF8A46A31BC5431B00C9D9DF /* Xcode下标脚本.playground */,
+				FF8A46A41BC5609400C9D9DF /* Xcode继承.playground */,
+				FF8A46A51BC5744800C9D9DF /* Xcode构造过程.playground */,
+				FF72F4DE1BC80F430045F302 /* Xcode析构过程.playground */,
+				FF72F4DF1BC8104A0045F302 /* Xcode自动引用计数.playground */,
 			);
 			path = SwiftProgrammingLanguage;
 			sourceTree = "<group>";
