@@ -26,14 +26,13 @@
 /* Begin PBXFileReference section */
 		FF14D51F1BC125D400E1519B /* Xcode枚举.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Xcode枚举.playground"; sourceTree = "<group>"; };
 		FF14D5201BC1791D00E1519B /* Xcode类和结构体.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Xcode类和结构体.playground"; sourceTree = "<group>"; };
-		FF6B2AFA1B8963A10077E4EE /* SwiftProgrammingLanguage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftProgrammingLanguage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF6B2AFA1B8963A10077E4EE /* SwiftProgrammingLanguage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SwiftProgrammingLanguage.app; path = "/Users/yuanlin/Developer/SwiftProgrammingLanguage/build/Debug-iphoneos/SwiftProgrammingLanguage.app"; sourceTree = "<absolute>"; };
 		FF6B2AFE1B8963A10077E4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF6B2B021B8963A10077E4EE /* SwiftProgrammingLanguage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftProgrammingLanguage.xcdatamodel; sourceTree = "<group>"; };
 		FF6B2B071B8963A10077E4EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF6B2B091B8963A10077E4EE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FF6B2B0C1B8963A10077E4EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		FF6B2B121B8963A10077E4EE /* SwiftProgrammingLanguageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftProgrammingLanguageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF6B2B171B8963A10077E4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF6B2B121B8963A10077E4EE /* SwiftProgrammingLanguageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SwiftProgrammingLanguageTests.xctest; path = "/Users/yuanlin/Developer/SwiftProgrammingLanguage/build/Debug-iphoneos/SwiftProgrammingLanguageTests.xctest"; sourceTree = "<absolute>"; };
 		FF72F4DE1BC80F430045F302 /* Xcode析构过程.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Xcode析构过程.playground"; sourceTree = "<group>"; };
 		FF72F4DF1BC8104A0045F302 /* Xcode自动引用计数.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Xcode自动引用计数.playground"; sourceTree = "<group>"; };
 		FF8A46A31BC5431B00C9D9DF /* Xcode下标脚本.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Xcode下标脚本.playground"; sourceTree = "<group>"; };
@@ -73,18 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				FF6B2AFC1B8963A10077E4EE /* SwiftProgrammingLanguage */,
-				FF6B2B151B8963A10077E4EE /* SwiftProgrammingLanguageTests */,
-				FF6B2AFB1B8963A10077E4EE /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		FF6B2AFB1B8963A10077E4EE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FF6B2AFA1B8963A10077E4EE /* SwiftProgrammingLanguage.app */,
-				FF6B2B121B8963A10077E4EE /* SwiftProgrammingLanguageTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		FF6B2AFC1B8963A10077E4EE /* SwiftProgrammingLanguage */ = {
@@ -120,22 +108,6 @@
 				FF6B2B011B8963A10077E4EE /* SwiftProgrammingLanguage.xcdatamodeld */,
 				FF6B2B091B8963A10077E4EE /* Images.xcassets */,
 				FF6B2AFE1B8963A10077E4EE /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		FF6B2B151B8963A10077E4EE /* SwiftProgrammingLanguageTests */ = {
-			isa = PBXGroup;
-			children = (
-				FF6B2B161B8963A10077E4EE /* Supporting Files */,
-			);
-			path = SwiftProgrammingLanguageTests;
-			sourceTree = "<group>";
-		};
-		FF6B2B161B8963A10077E4EE /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				FF6B2B171B8963A10077E4EE /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -207,7 +179,7 @@
 				Base,
 			);
 			mainGroup = FF6B2AF11B8963A10077E4EE;
-			productRefGroup = FF6B2AFB1B8963A10077E4EE /* Products */;
+			productRefGroup = FF6B2AF11B8963A10077E4EE;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
